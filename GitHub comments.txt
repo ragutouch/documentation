@@ -1,0 +1,32 @@
+Merge CMMITS
+============
+
+git add
+
+git commit -a
+
+
+CHECKOUT particular COMMIT
+==========================
+
+git checkout <copy SHA to clipboard>
+
+git checkout 52462fc0cdc53300f2d33d08fde1ff425442f41f
+
+
+
+UNDO ALL PENDING CHANGES
+========================
+
+    -// This will unstage all files you might have staged with git add:
+
+    git reset
+
+    -// This will revert all local uncommitted changes (should be executed in repo root):
+
+    git checkout .
+
+    -// This will remove all local untracked files, so only git tracked files remain:
+
+    git clean -fdx
+
